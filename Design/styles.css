@@ -1,0 +1,202 @@
+@import url('https://fonts.google.com/specimen/Lexend+Deca');
+@import url('(https://fonts.google.com/specimen/Big+Shoulders+Display');
+
+
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+
+
+}
+
+body {
+
+    font-size: 15px;
+    background:hsl(0, 0%, 95%);
+
+    
+    
+}
+
+
+
+h1 {
+
+    color: hsl(0, 0%, 95%);
+
+    /*position: relative;*/
+    top: 20px;
+}
+
+p {
+
+    color: hsla(0, 0%, 100%, 0.75);
+    /*position: relative;*/
+    top: 60px;
+}
+
+
+
+
+
+
+.page {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid red;*/
+
+
+}
+
+.wrapper {
+    display: flex;
+    min-height: 80vh;
+    flex-shrink: 100%;
+    margin: 50px auto;
+    border-radius: 5px 5px 5px 5px; 
+   
+    
+    
+}
+
+
+
+
+
+
+.sedan-cars-container {
+    
+    color: hsl(31, 77%, 52%);
+    background: hsl(31, 77%, 52%);
+    padding: 20px;
+    
+
+}
+
+.suvs-cars-container {
+    
+    color: hsl(184, 100%, 22%);
+    background: hsl(184, 100%, 22%);
+    padding: 20px;
+    
+}
+
+.luxury-cars-container {
+    
+    color: hsl(179, 100%, 13%);
+    background: hsl(179, 100%, 13%);
+    padding: 20px;
+
+}
+
+.call-to-action {
+    /*position: relative;*/
+    color: inherit;
+    top: 200px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin-right: 50px;
+    border-radius: 70px;
+    background-color: white;
+    border: 1px solid #ffffff;
+}
+
+
+
+
+
+
+
+a:hover {
+    color:#FFFFFF;
+    /*justify-content: center;*/
+    background-color: inherit;
+}
+/* Display Screen Styles for Galaxy S5 */
+@media only screen and (max-width: 375px) {
+
+    .page {
+
+        display: block;
+        flex-direction: column;
+        flex-basis: 100%;
+        min-height: 80vh;
+        margin: 10px 30px;
+        
+        
+    }
+
+    body {
+
+        font-weight:400;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+    .sedan-cars-container {
+
+    
+        margin-bottom: 0;
+
+    }
+}/*
+
+@media only screen and (min-width: 376px) and (max-width: 960) {
+    .wrapper {
+
+        display: block;
+        flex-direction:column;
+        width: 50%;
+
+    }
+
+    .sedan-cars-container, .suvs-cars-container, .luxury-cars-container {
+
+        height: 30%;
+    }
+
+
+
+    
+
+
+}
+
+/*@media only screen and (min-width: 961px) and (max-width: 1439px) {
+
+     .wrapper {
+
+        flex-direction: column;
+     }
+
+
+}*/
+
+/*@media only screen and (min-width: 1440px) {
+
+
+    .page {
+
+        width: 1000px;
+        margin: auto;
+    }
+
+    body {
+
+        font-family: 'Big Shoulders Display', cursive;
+        font-weight: 700;
+    }
+
+    .sedan-cars-container, .suvs-cars-container, .luxury-cars-container {
+
+        height: 30%;
+    }
+
+
+}*/
